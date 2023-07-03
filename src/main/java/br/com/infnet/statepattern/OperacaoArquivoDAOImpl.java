@@ -20,7 +20,7 @@ public class OperacaoArquivoDAOImpl implements OperacaoArquivoDAO {
     }
 
     @Override
-    public Boolean verificarSeHouveProcessamentoArquivoRComErro(Integer nsa) {
+    public boolean verificarSeHouveProcessamentoArquivoRComErro(Integer nsa) {
         if(nsa > 0){
             return true;
         }
